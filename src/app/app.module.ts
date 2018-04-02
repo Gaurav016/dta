@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
-import { TableComponent } from './pages/table/table/table.component';
+import { TableComponent } from './pages/table/table.component';
 
 
 @NgModule({

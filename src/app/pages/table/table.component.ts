@@ -8,12 +8,12 @@ import {TabularData} from './tabular-data';
 })
 export class TableComponent implements OnInit {
   tabular: TabularData[];
-  constructor(){
-    var tab= new TabularData(bird:"piegon", mammal:"Elephant", fish:"salmon");
-    var tab1= new TabularData(bird:"peacock", mammal:"Mammoth", fish:"salmon");
-    var tab2= new TabularData(bird:"hen", mammal:"Tiger", fish:"salmon");
-    var tab3= new TabularData(bird:"kiwi", mammal:"Lion", fish:"salmon");
-    this.tabular=[tab,tab1,tab2,tab3];
+  constructor() {
+    const tab = new TabularData('piegon', 'Elephant', 'salmon');
+    const tab1 = new TabularData('peacock', 'Mammoth', 'salmon');
+    const tab2 = new TabularData('hen', 'Tiger', 'salmon');
+    const tab3 = new TabularData('kiwi', 'Lion', 'salmon');
+    this.tabular = [tab, tab1, tab2, tab3];
   }
 
   ngOnInit() {
